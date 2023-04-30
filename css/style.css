@@ -1,0 +1,24 @@
+/* HOJA DE ESTILOS MAESTRA */
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+body header {
+  background-image: url("../img/header.jpg");
+  height: 200px;
+  /* Propiedades del background */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .navbar--blue {
+  background-color: rgba(87, 87, 248, 0.952);
+}
+
+/* ESTE MEDIA QUERIES QUIERE DECIR QUE A PARTIR DE 768PX LAS ETIQUETAS BODY Y HEADER TENDRAN UN ALTO DE 400PX */
+@media (min-width: 768px) {
+  body header {
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

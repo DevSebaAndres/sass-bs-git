@@ -1,0 +1,8 @@
+/* ESTE MEDIA QUERIES QUIERE DECIR QUE A PARTIR DE 768PX LAS ETIQUETAS BODY Y HEADER TENDRAN UN ALTO DE 400PX */
+@media(min-width:768px){
+    body{
+        header{
+            height:400px;
+        }
+    }
+}

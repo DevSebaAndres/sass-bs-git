@@ -1,0 +1,14 @@
+body{
+    font-family: $font-family;
+    header{
+        background-image: url("../img/header.jpg");
+        height:200px;
+        /* Propiedades del background */
+        background-position: center;
+        background-size: cover;
+        background-repeat:no-repeat;
+    }
+    .navbar--blue{
+        background-color: $primary-color;
+    }
+}
